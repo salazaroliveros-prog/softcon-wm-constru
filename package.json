@@ -1,33 +1,27 @@
 {
-  "name": "softcontrumys-wm",
-  "version": "0.1.0",
+  "name": "softcon-mys-master",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "start": "next start"
   },
   "dependencies": {
-    "@react-pdf/renderer": "^4.3.2",
-    "@supabase/supabase-js": "^2.90.1",
-    "jspdf": "^4.0.0",
-    "lucide-react": "^0.562.0",
-    "next": "^16.1.1",
-    "papaparse": "^5.5.3",
-    "react": "^19.2.3",
-    "react-dom": "^19.2.3",
-    "react-signature-canvas": "^1.1.0-alpha.2",
-    "recharts": "^3.6.0"
+    "@supabase/supabase-js": "latest",
+    "clsx": "latest",
+    "lucide-react": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-signature-canvas": "latest",
+    "tailwind-merge": "latest"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.1.1",
-    "tailwindcss": "^4",
-    "typescript": "^5"
+    "@types/react": "19.2.7",
+    "autoprefixer": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest",
+    "typescript": "^5.9.3"
   }
 }
